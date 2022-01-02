@@ -1,0 +1,26 @@
+[data-theme="red-light"] {
+	--primary: #e53935;
+	--primary-hover: #d32f2f;
+	--primary-focus: rgba(229, 57, 53, 0.125);
+	--primary-inverse: #fff;
+}
+
+#buttons {
+	margin-bottom: 0;
+}
+
+button.game {
+	padding: 35px;
+	width: auto;
+	font-size: 40px;
+}
+
+article {
+	margin: auto;
+	width: 500px;
+}
+
+article footer {
+	text-align: center;
+	margin-top: 0;
+}

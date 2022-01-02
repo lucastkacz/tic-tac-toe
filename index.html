@@ -5,11 +5,33 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<script type="text/javascript" src="./js/script.js" defer></script>
-		<script type="text/javascript" src="./js/theme_switcher.js" defer></script>
+
 		<link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" />
 		<link rel="stylesheet" href="./style.css" />
 		<link rel="icon" type="image/x-icon" href="./img/tic-tac-toe.ico" />
 		<title>Tic Tac Toe</title>
 	</head>
-	<body></body>
+	<body class="container">
+		<h1>Tic Tac Toe</h1>
+		<article id="article" class="flex-center">
+			<section id="buttons">
+				<div class="grid">
+					<button class="outline contrast game">&nbsp</button>
+					<button class="outline contrast game">&nbsp</button>
+					<button class="outline contrast game">&nbsp</button>
+				</div>
+				<div class="grid">
+					<button class="outline contrast game">&nbsp</button>
+					<button class="outline contrast game">&nbsp</button>
+					<button class="outline contrast game">&nbsp</button>
+				</div>
+				<div class="grid">
+					<button class="outline contrast game">&nbsp</button>
+					<button class="outline contrast game">&nbsp</button>
+					<button class="outline contrast game">&nbsp</button>
+				</div>
+			</section>
+			<footer><button data-theme="red-light">Restart</button></footer>
+		</article>
+	</body>
 </html>
