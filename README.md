@@ -2,4 +2,4 @@
 
 A Tic Tac Toe game you can play in your browser from the Javascript course in [The Odin Project](https://www.theodinproject.com/).
 
-Styles from [Pico.css](https://picocss.com/)
+Project based off of [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
